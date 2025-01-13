@@ -1,0 +1,13 @@
+root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/sda1" -> null
+          - encrypted             = false -> null
+          - iops                  = 3000 -> null
+          - tags                  = {} -> null
+          - tags_all              = {} -> null
+          - throughput            = 125 -> null
+          - volume_id             = "vol-0499c045abffd187c" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp3" -> null
+            # (1 unchanged attribute hidden)
+        }
